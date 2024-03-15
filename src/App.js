@@ -37,7 +37,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/packages" element={<packages packages={packages}/>} />
+          <Route path="/packages" element={<Packages packages={packages}/>} />
         </Routes>
       </div>
 
